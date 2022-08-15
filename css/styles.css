@@ -802,6 +802,7 @@ address {
   transition: border-color 250ms var(--timing-function);
 }
 
+.form-field:hover > .form-icons,
 .form-field:focus-within > .form-icons {
   fill: var(--accent-color);
 }
