@@ -691,7 +691,7 @@ address {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
-  transition: opacity 250ms var(--timing-function);
+  transition: opacity 250ms var(--timing-function), visibility 250ms var(--timing-function);
 }
 
 .backdrop.is-hidden {
@@ -720,15 +720,16 @@ address {
 
 .button-close {
   position: absolute;
-  top: 8px;
-  right: 8px;
-  display: flex;
+  top: 0;
+  right: 0;
+  transform: translate(-27%, 27%);
   width: 30px;
   height: 30px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   color: var(--primary-black-color);
   background-color: var(--primary-white-color);
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   padding: 0;
