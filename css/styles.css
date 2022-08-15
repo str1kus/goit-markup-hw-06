@@ -865,14 +865,13 @@ address {
 
 .checkin-icon {
   fill: var(--accent-color);
-  z-index: 1;
 }
 
-.checkbox-input:checked + .checkbox-icons {
+.checkbox-input:checked + .checkbox-icons .checked {
   opacity: 1;
 }
 
-.checkbox-input:not(:checked) + .checkbox-icons {
+.checkbox-input:not(:checked) + .checkbox-icons .checked {
   opacity: 0;
 }
 
@@ -959,7 +958,7 @@ address {
   gap: 10px;
 }
 
-.submit-portfolio {
+.submit-form {
   display: block;
   margin-left: auto;
   margin-right: auto;
