@@ -886,6 +886,7 @@ address {
   display: inline-block;
   color: var(--accent-color);
   line-height: 1.71;
+  text-underline-position: under;
 }
 
 /* Форма футера */
